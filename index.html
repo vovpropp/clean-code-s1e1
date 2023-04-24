@@ -8,19 +8,20 @@
 </head>
 
 <body>
-  <div class="header">
+  <header class="header">
+    <h1 class="header__title">The Eisenhower Matrix</h1>
     <img class="header__image" src="./eisenhower-matrix.jpg">
     <a class="header__link" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
-  </div>
-  <div class="wrapper">
-    <p>
-      <label class="title" for="new-task">Add Item</label>
+  </header>
+  <main class="wrapper">
+    <section class="add-task">
+      <h2 class="title">Add Item</h2>
       <div class="task-wrapper">
         <input id="new-task" class="input-text" type="text">
         <button class="button">Add</button>
       </div>
-    </p>
-    <h3 class="title">Todo</h3>
+    </section>
+    <h2 class="title">Todo</h2>
     <ul class="tasks" id="incomplete-tasks">
       <li class="tasks__item">
         <input class="input-checkbox" type="checkbox">
@@ -37,7 +38,7 @@
         <button class="button button_delete"><img src="./remove.svg"></button>
       </li>
     </ul>
-    <h3 class="title">Completed</h3>
+    <h2 class="title">Completed</h2>
     <ul class="tasks" id="completed-tasks">
       <li class="tasks__item">
         <input class="input-checkbox" type="checkbox" checked>
@@ -47,8 +48,8 @@
         <button class="button button_delete"><img src="./remove.svg"></button>
       </li>
     </ul>
-  </div>
-  <script SRC="app.js"></script>
+  </main>
+  <script src="app.js"></script>
 </body>
 
 </html>

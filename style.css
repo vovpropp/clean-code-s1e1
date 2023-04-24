@@ -44,7 +44,8 @@ body {
   padding: 0px;
 }
 
-.tasks__item, .title {
+.tasks__item, 
+.title {
   list-style: none;
 }
 
@@ -145,7 +146,8 @@ body {
 /* Completed */
 
 .tasks#completed-tasks .label {
-  text-decoration: line-through; color: #888;
+  text-decoration: line-through; 
+  color: #888;
 }
 
 /* Edit Task */

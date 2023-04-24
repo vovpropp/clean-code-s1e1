@@ -80,7 +80,7 @@ body {
 .input-text {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -121,7 +121,7 @@ body {
 .label {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
@@ -129,7 +129,7 @@ body {
 }
 
 .tasks__item > .input-text {
-  width: 226px
+  width: 226px;
 }
 
 .button_delete img {
@@ -145,19 +145,18 @@ body {
 /* Completed */
 
 .tasks#completed-tasks .label {
-  text-decoration: line-through
-  color: #888;
+  text-decoration: line-through; color: #888;
 }
 
 /* Edit Task */
 
 .tasks .tasks__item .input-text {
-  display: none
+  display: none;
 }
 
 .tasks .tasks__item.tasks__item_edit-mode .input-text {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 .tasks .tasks__item.tasks__item_edit-mode .label {

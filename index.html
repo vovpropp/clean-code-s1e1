@@ -13,39 +13,42 @@
     <img class="header__image" src="./eisenhower-matrix.jpg" alt="The Eisenhower Matrix">
     <a class="header__link" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
   </header>
+
   <main class="wrapper">
+    
     <section class="add-task">
       <h2 class="title">Add Item</h2>
-      <div class="task-wrapper">
-        <input id="new-task" class="input-text" type="text">
-        <button class="button">Add</button>
+      <div class="add-task__wrapper">
+        <input class="add-task__input-text input-text" type="text">
+        <button class="add-task__button button">Add</button>
       </div>
     </section>
+
     <h2 class="title">Todo</h2>
-    <ul class="tasks" id="incomplete-tasks">
+    <ul class="tasks tasks_incomplete">
       <li class="tasks__item">
         <input class="input-checkbox" type="checkbox">
         <label class="label">Pay Bills</label>
-        <input type="text" class="input-text">
+        <input class="input-text" type="text">
         <button class="button button_edit">Edit</button>
-        <button class="button button_delete"><img src="./remove.svg"></button>
+        <button class="button button_delete"><img class="button__image" src="./remove.svg" alt="remove"></button>
       </li>
       <li class="tasks__item tasks__item_edit-mode">
         <input class="input-checkbox" type="checkbox">
         <label class="label">Go Shopping</label>
-        <input type="text" value="Go Shopping" class="input-text">
+        <input class="input-text" type="text" value="Go Shopping">
         <button class="button button_edit">Save</button>
-        <button class="button button_delete"><img src="./remove.svg"></button>
+        <button class="button button_delete"><img class="button__image" src="./remove.svg" alt="remove"></button>
       </li>
     </ul>
     <h2 class="title">Completed</h2>
-    <ul class="tasks" id="completed-tasks">
+    <ul class="tasks tasks_completed">
       <li class="tasks__item">
         <input class="input-checkbox" type="checkbox" checked>
         <label class="label">See the Doctor</label>
-        <input type="text" class="input-text">
+        <input class="input-text" type="text">
         <button class="button button_edit">Edit</button>
-        <button class="button button_delete"><img src="./remove.svg"></button>
+        <button class="button button_delete"><img class="button__image" src="./remove.svg" alt="remove"></button>
       </li>
     </ul>
   </main>
